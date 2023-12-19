@@ -1,0 +1,46 @@
+{
+    "full_name": "Jordan Frazier",
+    "email": "email@example.com",
+    "github_username": "jfrazier312",
+    "project_name": "Starter RAG Application",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "Contains all the boilerplate you need to create a RAG application.",
+    "pypi_username": "{{ cookiecutter.github_username }}",
+    "version": "0.1.0",
+    "use_pytest": "y",
+    "use_pypi_deployment_with_travis": "y",
+    "add_pyup_badge": "n",
+    "command_line_interface": [
+        "Click",
+        "No command-line interface"
+    ],
+    "create_author_file": "y",
+    "open_source_license": [
+        "MIT",
+        "BSD-3-Clause",
+        "ISC",
+        "Apache-2.0",
+        "GPL-3.0-only",
+        "Not open source"
+    ],
+    "use_google_docstrings": "y",
+    "_copy_without_render": [
+        "*.github/workflows/*.yml"
+    ],
+    "qa_with_memory": "y",
+    "input_story": [
+        "Amontillado",
+        "Philosopher"
+    ],
+    "model": [
+        "gpt-3.5-turbo",
+        "gpt-4"
+    ],
+    "chunk_strategy": [
+        "TokenTextSplit",
+        "RecursiveCharacterTextSplit"
+    ],
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "verbose": "n"
+}
